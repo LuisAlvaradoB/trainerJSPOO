@@ -10,9 +10,13 @@
     <script type="text/javascript">
       var generico = {
         nombre: 'Mi objeto',
-        edad: 15
+        edad: 15,
+        saludar : function(nombre){
+          console.log('Hola '+nombre);
+        }
       };
       console.log(generico.nombre);
+      generico.saludar('Luis');
 
     </script>
 
